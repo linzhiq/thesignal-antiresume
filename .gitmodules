@@ -1,0 +1,3 @@
+[submodule "thesignal-style-guide"]
+	path = thesignal-style-guide
+	url = https://github.com/linzhiq/thesignal-style-guide.git
