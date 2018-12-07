@@ -10,66 +10,172 @@
         .center {
             text-align: center;
         }
-
         .content {
-            padding: 200px;
+            padding: 40px 300px 40px 300px;
+        }
+        .background {
+            background-color: #E5E5E5;
+        }
+        .info {
+            padding-left: 15px;
+        }
 
+        .description {
+            color: #7F7F7F;
+            padding: 0px 350px 0px 350px;
+        }
+
+        #profile_image {
+            margin-top: -75px;
+            border-radius: 50%;
+            border-width: 4px;
+            border-color: #FFFFFF;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            float: left;
+        }
+
+        .left {
+            width: 4%;
+            height: auto;
+            font-size: 25px;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        .right {
+            width: 96%;
+            margin-left: 5px;
+        }
+
+        p {
+            color: #267DBC;
+        }
+
+        li {
+            color: #7F7F7F;
         }
     </style>
 </head>
 <body>
-<div class="content">
-    <h1 class="ui center aligned header">Laura Gao</h1>
-    <div class="ui segment">
-        <p class="center">Laura studied Business Analytics and Animation at Penn and now works as a Product Manager at Twitter.</p>
-    </div>
-    <div class="ui segment">
-        <p><b>17 "Thank you for applying but..." jobs</b>
-
-        <div class="ui divider"></div>
-        <b>4 Clubs that "weren't a good fit"</b>
-
-        <div class="ui divider"></div>
-        <b> Things I Swore I'd Finish But Never Did</b>
-        <ul>
-            <li> Paper animation project </li>
-            <li> Online comic series </li>
-            <li> 15K marathon challenge </li>
-            <li> Every hackathon idea </li>
-        </ul>
-        <div class="ui divider"></div>
-        <b>3 Everyday L's of Life</b>
-        <ul>
-            <li>Sleeping through a flight for a final round interview</li>
-            <li>Getting investigated by FBI for making rocket fuel in the bio lab</li>
-            <li>Sleeping through Math & Chinese finals</li>
-
-        </ul>
-
+    <div class="header">
+        <img class="ui image" src="images/background.jpg" id="header_image">
+        <img class="ui fluid centered bordered circular small image" src="images/laura_gao.jpg" id="profile_image">
+        <h2 class="center">Laura Gao</h2>
+        <p class="center description"><b>W'17</b></p>
+        <p class="center description">Laura studied Business Analytics and Animation at Penn and now works as a
+            Product Manager at Twitter.</p>
     </div>
 
-    <div class="ui segment">
+    <div class="background">
+        <div class="content">
+            <div class="ui segment">
+                <div class="ui medium header">L's Taken</div>
+                <div class="info">
+                    <div class="row">
+                        <div class="column left">
+                            <p><b>17</b></p>
+                        </div>
+                        <div class="column right">
+                            <p><b>"Thank you for applying but..." jobs</b></p>
+                            <div class="ui divider"></div>
+                        </div>
+                    </div>
 
-        <b> 2 Leaps of Faith</b>
-        <ul>
-            <li> Changing my major 15 times before I graduated </li>
-            <li> Reneging on a future job to explore my real passions</li>
 
-        </ul>
-        <div class="ui divider"></div>
-        <b>1 Succulent that survived until senior year</b>
-        <div class="ui divider"></div>
-        <b>5 Memories I made while I wasn’t studying/working</b>
-        <ul>
-            <li>Spontaneous trips to Toronto and Jersey beach with the Sign.al crew</li>
-            <li>“Whine & cheese” nights with best friends until 4am</li>
-            <li>Suffering 10 mile hikes in the Appalachian together with friends</li>
-            <li>Club basketball tournaments and late night pickup</li>
-            <li>Running along Schuykill during sunset and embodying the spirit of Rocky at the PMA</li>
-        </ul>
+                    <div class="row">
+                        <div class="column left">
+                            <p><b>4</b></p>
+                        </div>
+                        <div class="column right">
+                            <p><b>Clubs that "weren't a good fit"</b></p>
+                            <div class="ui divider"></div>
+                        </div>
+                    </div>
 
+                    <div class="row">
+                        <div class="column left">
+                            <p><b>4</b></p>
+                        </div>
+                        <div class="column right">
+                            <p><b>Things I Swore I'd Finish But Never Did</b></p>
+                            <ul>
+                                <li> Paper animation project </li>
+                                <li> Online comic series </li>
+                                <li> 15K marathon challenge </li>
+                                <li> Every hackathon idea </li>
+                            </ul>
+                            <div class="ui divider"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column left">
+                            <p><b>3</b></p>
+                        </div>
+                        <div class="column right">
+                            <p><b>Everyday L's of Life</b></p>
+                            <ul>
+                                <li>Sleeping through a flight for a final round interview</li>
+                                <li>Getting investigated by FBI for making rocket fuel in the bio lab</li>
+                                <li>Sleeping through Math & Chinese finals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="ui segment">
+                <div class="ui medium header">On the Bright Side</div>
+                <div class="info">
+                    <div class="row">
+                        <div class="column left">
+                            <p><b>2</b></p>
+                        </div>
+                        <div class="column right">
+                            <p><b>Leaps of Faith</b></p>
+                            <ul>
+                                <li> Changing my major 15 times before I graduated </li>
+                                <li> Reneging on a future job to explore my real passions</li>
+                            </ul>
+                            <div class="ui divider"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column left">
+                            <p><b>1</b></p>
+                        </div>
+                        <div class="column right">
+                            <p><b>Succulent that survived until senior year</b></p>
+                            <div class="ui divider"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column left">
+                            <p><b>5</b></p>
+                        </div>
+                        <div class="column right">
+                            <p><b>Memories I made while I wasn’t studying/working</b></p>
+                            <ul>
+                                <li>Spontaneous trips to Toronto and Jersey beach with the Sign.al crew</li>
+                                <li>“Whine & cheese” nights with best friends until 4am</li>
+                                <li>Suffering 10 mile hikes in the Appalachian together with friends</li>
+                                <li>Club basketball tournaments and late night pickup</li>
+                                <li>Running along Schuykill during sunset and embodying the spirit of Rocky at the PMA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 
 <script type="text/javascript" src="js/semantic.js"></script>
 </body>
