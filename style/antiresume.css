@@ -1,0 +1,53 @@
+.center {
+    text-align: center;
+}
+.content {
+    padding: 40px 300px 40px 300px;
+}
+.background {
+    background-color: #E5E5E5;
+}
+.info {
+    padding-left: 15px;
+}
+
+.description {
+    color: #7F7F7F;
+    padding: 0px 350px 0px 350px;
+}
+
+#profile_image {
+    margin-top: -75px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: #FFFFFF;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 4%;
+    height: auto;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.right {
+    width: 96%;
+    margin-left: 5px;
+}
+
+p {
+    color: #267DBC;
+}
+
+li {
+    color: #7F7F7F;
+}
