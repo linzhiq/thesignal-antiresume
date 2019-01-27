@@ -2,7 +2,7 @@
     text-align: center;
 }
 .content {
-    padding: 40px 300px 40px 300px;
+    padding: 40px 350px 40px 350px;
 }
 .background {
     background-color: #E5E5E5;
@@ -13,6 +13,10 @@
 
 .vertical-menu {
     width: 200px;
+}
+
+#jobs {
+    font-size: 18px;
 }
 
 .description {
@@ -70,7 +74,6 @@ li {
 
 li a {
     display: block;
-    color: #000;
-    padding: 8px 16px;
+    color: #267DBC;
     text-decoration: none;
 }
