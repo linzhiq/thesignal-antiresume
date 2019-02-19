@@ -1,14 +1,17 @@
 .center {
     text-align: center;
 }
-.content {
-    padding: 5% 25% 5% 25%;
-}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
     .content {
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
         padding: 5% 0% 5% 0%;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .content {
+        padding: 5% 25% 5% 25%;
     }
 }
 
@@ -16,12 +19,12 @@
     background-color: #E5E5E5;
 }
 .info {
-    padding-left: 15px;
+    padding-left: 4%;
 }
 
-.vertical-menu {
-    width: 200px;
-}
+/*.vertical-menu {*/
+    /*width: 200px;*/
+/*}*/
 
 #jobs {
     font-size: 18px;
@@ -52,12 +55,12 @@
     height: auto;
     font-size: 25px;
     text-align: right;
-    margin-right: 10px;
+    margin-right: 2%;
 }
 
 .right {
     width: 96%;
-    margin-left: 5px;
+    margin-left: 1%;
 }
 
 p {
@@ -68,15 +71,15 @@ li {
     color: #7F7F7F;
 }
 
-.vertical-menu {
-    margin: auto;
-    width: 300px;
-}
+/*.vertical-menu {*/
+    /*margin: auto;*/
+    /*width: 300px;*/
+/*}*/
 
 .link-menu {
     list-style-type: none;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     background-color: #f1f1f1;
 }
 
