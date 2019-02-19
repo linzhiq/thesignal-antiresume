@@ -2,6 +2,14 @@
     text-align: center;
 }
 
+#title {
+    font-size: 5em;
+}
+
+#about {
+    font-size: 1.5em;
+}
+
 @media screen and (max-width: 480px) {
     .content {
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
@@ -16,7 +24,7 @@
 }
 
 .background {
-    background-color: #E5E5E5;
+    background-color: #DDDDDD;
 }
 .info {
     padding-left: 4%;
@@ -26,12 +34,16 @@
     /*width: 200px;*/
 /*}*/
 
+.link {
+    font-size: 1.2em;
+}
+
 #jobs {
     font-size: 18px;
 }
 
 .description {
-    color: #7F7F7F;
+    color: #808080;
     padding: 0% 25% 0% 25%;
 }
 
@@ -65,10 +77,11 @@
 
 p {
     color: #267DBC;
+    font-family: "Cerebri Sans", sans-serif;
 }
 
 li {
-    color: #7F7F7F;
+    color: #808080;
 }
 
 /*.vertical-menu {*/
@@ -87,4 +100,12 @@ li a {
     display: block;
     color: #267DBC;
     text-decoration: none;
+}
+
+.section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
