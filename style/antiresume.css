@@ -1,13 +1,65 @@
+#about {
+    font-size: 1.5em;
+}
+
+.background {
+    background-color: #DDDDDD;
+}
+
 .center {
     text-align: center;
 }
 
-#title {
-    font-size: 5em;
+.column {
+    float: left;
 }
 
-#about {
-    font-size: 1.5em;
+.description {
+    color: #808080;
+    padding: 0% 25% 0% 25%;
+}
+
+.info {
+    padding-left: 4%;
+}
+
+.link {
+    font-size: 1.2em;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#jobs {
+    font-size: 18px;
+}
+
+.left {
+    width: 4%;
+    height: auto;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 2%;
+}
+
+li {
+    color: #808080;
+}
+
+li a {
+    display: block;
+    color: #267DBC;
+    text-decoration: none;
+}
+
+.link-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
 }
 
 @media screen and (max-width: 480px) {
@@ -23,28 +75,8 @@
     }
 }
 
-.background {
-    background-color: #DDDDDD;
-}
-.info {
-    padding-left: 4%;
-}
-
-/*.vertical-menu {*/
-    /*width: 200px;*/
-/*}*/
-
-.link {
-    font-size: 1.2em;
-}
-
-#jobs {
-    font-size: 18px;
-}
-
-.description {
-    color: #808080;
-    padding: 0% 25% 0% 25%;
+p {
+    color: #267DBC;
 }
 
 #profile_image {
@@ -54,52 +86,13 @@
     border-color: #FFFFFF;
 }
 
-.row {
-    display: flex;
-}
-
-.column {
-    float: left;
-}
-
-.left {
-    width: 4%;
-    height: auto;
-    font-size: 25px;
-    text-align: right;
-    margin-right: 2%;
-}
-
 .right {
     width: 96%;
     margin-left: 1%;
 }
 
-p {
-    color: #267DBC;
-    font-family: "Cerebri Sans", sans-serif;
-}
-
-li {
-    color: #808080;
-}
-
-/*.vertical-menu {*/
-    /*margin: auto;*/
-    /*width: 300px;*/
-/*}*/
-
-.link-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #f1f1f1;
-}
-
-li a {
-    display: block;
-    color: #267DBC;
-    text-decoration: none;
+.row {
+    display: flex;
 }
 
 .section {
@@ -108,4 +101,8 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#title {
+    font-size: 5em;
 }
