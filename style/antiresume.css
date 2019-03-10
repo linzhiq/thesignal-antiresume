@@ -2,6 +2,10 @@
     font-size: 1.5em;
 }
 
+#subtitle {
+    text-align: center;
+}
+
 .background {
     background-color: #DDDDDD;
 }
@@ -86,6 +90,12 @@ p {
     border-color: #FFFFFF;
 }
 
+@media screen and (max-width: 500px) {
+    #profile_image {
+        margin-top: -70px;
+    }
+}
+
 .right {
     width: 96%;
     margin-left: 1%;
@@ -103,6 +113,68 @@ p {
     justify-content: center;
 }
 
+/* this only fixes overflow from the top */
+.container {
+    max-height: 100%;
+}
+
+.center.description {
+    max-height: 100%;
+}
+
 #title {
     font-size: 5em;
+}
+
+.column.left {
+    margin-right: 6%;
+}
+
+/* taken from thesignal.css */
+
+#header {
+    padding: 20px 6% 20px 6%;
+    width: 100%;
+}
+
+#header > .right {
+    font-size: 18px;
+    padding-left: 60%;
+}
+
+#header > * {
+    height: 60px;
+    line-height: 60px;
+
+    white-space: nowrap;
+    float: left;
+
+    font-size: 36px;
+}
+
+.nav-item {
+    margin-left: 28px;
+    font-weight: 500;
+    color: #444444;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 18px;
+}
+
+#logo {
+    height: 80px;
+    width: auto;
+    float: left;
+}
+
+#lockup {
+    float: left;
+    margin-left: 20px;
+    color: #222222;
+    height: 6px;
+    line-height: 60px;
+    white-space: nowrap;
+    float: left;
+    font-size: 36px;
 }

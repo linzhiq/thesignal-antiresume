@@ -3,29 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>Anti-Resume</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="style/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="style/antiresume.css">
+
 </head>
 <body>
+<nav class="navbar navbar-expand-sm fixed-top bg-light navbar-light" id="mainNav">
+    <div class="container">
 
-<div class="section title">
+        <a class="navbar-brand js-scroll-trigger" href="#top">
+            <img id="logo" src="images/signallogo.png">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#background">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="top" class="section title">
     <div class="main">
-        <h1 id = "title">Anti-Resume Project</h1>
+        <h1 id="title">Anti-Resume Project</h1>
+        <h4 id="subtitle">Made with &lt;3 by
+            <a href="https://thesign.al/">The Signal</a>
+        </h4>
     </div>
 </div>
 
-<div class="section about background">
-    <p class="center description" id="about">The goal of this project is to highlight both failures and accomplishments
-        of people at Penn that wouldn’t normally show up on a resume, and to promote the message that we are more than
-        our resume, our GPA, our internship, or our job.
-        <br><br> In our initial launch, the Signal would like to share with you the anti-resumes of some of our recent
-        alumni in hopes of normalizing failure and celebrating small but important things that aren't normally tied to
-        success. Future anti-resumes will feature graduating seniors and other Penn students.
-    </p>
-</div>
+<section class="section about background" id="background">
+    <div class="container about">
+        <p class="center description" id="about">The goal of this project is to highlight both failures and accomplishments
+            of people at Penn that wouldn’t normally show up on a resume, and to promote the message that we are more than
+            our resume, our GPA, our internship, or our job.
+            <br><br> In our initial launch, the Signal would like to share with you the anti-resumes of some of our recent
+            alumni in hopes of normalizing failure and celebrating small but important things that aren't normally tied to
+            success. Future anti-resumes will feature graduating seniors and other Penn students.
+        </p>
+    </div>
+</section>
 
 
-<div class="section">
+<div id="gallery" class="section">
     <div class="content center">
         <h1 class="description">Penn Alumni</h1>
         <div class="ui grid centered">
