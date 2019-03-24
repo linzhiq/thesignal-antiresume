@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Anti-Resume - Matt Lisle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style/antiresume.css">
     <link rel="stylesheet" type="text/css" href="style/semantic.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136250797-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-136250797-1');
+    </script>
+
 </head>
 <body>
     <div class="header">
         <img class="ui image" src="images/background.jpg" id="header_image">
-        <img class="ui fluid centered bordered circular small image" src="images/blank_profile.png" id="profile_image">
+        <img class="ui fluid centered bordered circular small image" src="images/matt_lisle.jpg" id="profile_image">
         <h2 class="center">Matt Lisle</h2>
         <p class="center description"><b>E'15</b></p>
         <p class="center description">
@@ -32,14 +44,22 @@
                         </div>
                         <div class="column right">
                             <p><b>"Thank you for applying but..." jobs</b></p>
-                            <ul>
-                                <li> SpaceX </li>
-                                <li> Deloitte </li>
-                                <li> Jane Street </li>
-                                <li> Anki </li>
-                                <li> Boeing </li>
-                                <li> DEKA </li>
-                            </ul>
+                            <div class="ui grid">
+                                <div class="eight wide column">
+                                    <ul>
+                                        <li> SpaceX </li>
+                                        <li> Deloitte </li>
+                                        <li> Jane Street </li>
+                                    </ul>
+                                </div>
+                                <div class="eight wide column">
+                                    <ul>
+                                        <li> Anki </li>
+                                        <li> Boeing </li>
+                                        <li> DEKA </li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="ui divider"></div>
                         </div>
                     </div>
