@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<!--keep everything in 'head' the same except for title-->
+<head>
+    <meta charset="UTF-8">
+    <!--title that shows up on Google Chrome tab -- CHANGE NAME-->
+    <title>Anti-Resume - Mary Dever</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--links this file to a style sheet (controls spacing, formatting, colors, sizes, etc.)-->
+    <link rel="stylesheet" type="text/css" href="style/antiresume.css">
+    <link rel="stylesheet" type="text/css" href="style/semantic.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics tracking tag-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136250797-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-136250797-1');
+    </script>
+</head>
+
+<!--everything in body is what appears on page-->
+<body>
+<div class="header">
+    <!-- generic background image (background.jpg)-->
+    <img class="ui image" src="images/background.jpg" id="header_image">
+
+    <!--profile image -- CHANGE URL IN 'src' to "images/(name of jpg)"-->
+    <img class="ui fluid centered bordered circular small image" src="images/mary_dever.jpg" id="profile_image">
+
+    <!--heading -- NAME OF ALUMNI/SENIOR-->
+    <h2 class="center">Mary Dever</h2>
+
+    <!--paragraph description -- DESCRIPTION OF SENIOR-->
+    <p class="center description"><b>C'19</b></p>
+    <p class="center description">Mary Dever is a student in the College, majoring in Urban Studies and minoring
+    in Urban Education and Gender, Sexuality and Women's Studies. She is pursuing multiple career options including
+        public policy, education, and non-profit work. </p>
+    <br>
+</div>
+
+<!--'background' class provides gray background of page-->
+<div class="background">
+    <!--'content' class provides formatting of content (spacing, margins, font size, etc.-->
+    <div class="content">
+
+        <!--'ui segment' class dictates different sections (i.e. L's Taken and On the Bright Side)-->
+        <div class="ui segment">
+            <div class="ui medium header">L's Taken</div>
+            <div class="info">
+
+                <!--USE THIS FORMAT IF THERE ARE LESS THAN 4 FAILURES-->
+                <!--'row' class contains all content of one category (ex. Clubs I wasn't accepted to)-->
+                <div class="row">
+                    <!--'column left' class contains number of failures/clubs/jobs/etc in category -- CHANGE NUMBER-->
+                    <div class="column left">
+                        <p><b>4</b></p>
+                    </div>
+                    <!--'column right' class contains bullet points of failures-->
+                    <div class="column right">
+                        <!--CHANGE BELOW TO CHANGE TITLE & FAILURES OF CATEGORY-->
+                        <p><b>Everyday L's of Life</b></p>
+                        <ul>
+                            <li> My inability to get out of bed before 10:30am despite multiple alarms</li>
+                            <li> Eating enough vegetables</li>
+                            <li> Trying to juggle school work, job applications, my mental sanity, and social
+                                life #fail</li>
+                            <li> Not making it to majority of the lecture events I RSVP'd to on Facebook</li>
+                        </ul>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!--'column left' class contains number of failures/clubs/jobs/etc in category -- CHANGE NUMBER-->
+                    <div class="column left">
+                        <p><b>1</b></p>
+                    </div>
+                    <!--'column right' class contains bullet points of failures-->
+                    <div class="column right">
+                        <!--CHANGE BELOW TO CHANGE TITLE & FAILURES OF CATEGORY-->
+                        <p><b>Failures That Seemed Like the End of the World Back Then But Don't Matter in
+                            Hindsight</b></p>
+                        <ul>
+                            <li> Taking a medical leave my freshman year: It turned out to be one of my biggest
+                                blessings, allowing me to take a deep breath from school. It was the scariest and most
+                                jolting experience, but I am thankful for my concussions (not the pain, but you get my point)</li>
+                        </ul>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <!--USE THIS FORMAT IF THERE ARE 4 OR MORE FAILURES-->
+                <div class="row">
+                    <div class="column left">
+                        <p><b>5</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Things I Swore I'd Finish But Never Did</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Class readings (does it count that I saved some of them to finish after
+                                    graduation?)</li>
+                                    <li> Folding my laundry </li>
+                                    <li> The books I listed in "books I've read for fun" </li>
+
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Many 30-day gym challenges </li>
+                                    <li> A minor in American Sign Language </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="ui segment">
+            <div class="ui medium header">On the Bright Side</div>
+            <div class="info">
+                <!--add more 'row' classes here-->
+                <div class="row">
+                    <!--'column left' class contains number of failures/clubs/jobs/etc in category -- CHANGE NUMBER-->
+                    <div class="column left">
+                        <p><b>3</b></p>
+                    </div>
+                    <!--'column right' class contains bullet points of failures-->
+                    <div class="column right">
+                        <!--CHANGE BELOW TO CHANGE TITLE & FAILURES OF CATEGORY-->
+                        <p><b>Memories I Made When I Wasn't Studying/Working</b></p>
+                        <ul>
+                            <li> Getting to listen to people like Kimberle Crenshaw and Anita Hill</li>
+                            <li> Peaceful walks down Locust at night when the holiday lights are on</li>
+                            <li> Dancing on The Parkway with the rest of the city when we had off for the Eagles Super Bowl Parade </li>
+                        </ul>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--'column left' class contains number of failures/clubs/jobs/etc in category -- CHANGE NUMBER-->
+                    <div class="column left">
+                        <p><b>3</b></p>
+                    </div>
+                    <!--'column right' class contains bullet points of failures-->
+                    <div class="column right">
+                        <!--CHANGE BELOW TO CHANGE TITLE & FAILURES OF CATEGORY-->
+                        <p><b>Things I've Learned That Will Still Matter In 10 Years</b></p>
+                        <ul>
+                            <li> I am enough without any of our accomplishments, simply by being me</li>
+                            <li> Do *less* and simply *be* more</li>
+                            <li> Trying to juggle school work, job applications, my mental sanity, and social
+                                life #fail</li>
+                            <li> Finding a place that sells good breakfast sandwiches/*insert favorite comfort
+                                food* wherever you go is important</li>
+                        </ul>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column left">
+                        <p><b>5</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Books I've Read For Fun</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li>My Grandfather's Blessings by Rachel Naomi Remen</li>
+                                    <li>A Thousand Splendid Suns by Khaled Hosseini </li>
+                                    <li>The Self-Love Experiment by Shannon Kaiser </li>
+                                    <li>Becoming by Michelle Obama </li>
+
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+                                    <li>All the Light We Cannot See by Anthony Doerr</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--'column left' class contains number of failures/clubs/jobs/etc in category -- CHANGE NUMBER-->
+                    <div class="column left">
+                        <p><b>2</b></p>
+                    </div>
+                    <!--'column right' class contains bullet points of failures-->
+                    <div class="column right">
+                        <!--CHANGE BELOW TO CHANGE TITLE & FAILURES OF CATEGORY-->
+                        <p><b>Things I'm Proud Of That You Won't See On A Resume</b></p>
+                        <ul>
+                            <li> My medical leave freshman year</li>
+                            <li> All the nights of self-care consisting of walks, talking with friends, and going home to relax</li>
+                        </ul>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--'column left' class contains number of failures/clubs/jobs/etc in category -- CHANGE NUMBER-->
+                    <div class="column left">
+                        <p><b>4</b></p>
+                    </div>
+                    <!--'column right' class contains bullet points of failures-->
+                    <div class="column right">
+                        <!--CHANGE BELOW TO CHANGE TITLE & FAILURES OF CATEGORY-->
+                        <p><b>Unconventional Skills</b></p>
+                        <ul>
+                            <li> Radical optimism (still working on it!)</li>
+                            <li> Can cry during any Ellen video featuring ordinary guests</li>
+                            <li> Blowing bubbles off of my tongue</li>
+                            <li> Knows lyrics to all of Sam Smith's songs</li>
+                        </ul>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--'column left' class contains number of failures/clubs/jobs/etc in category -- CHANGE NUMBER-->
+                    <div class="column left">
+                        <p><b>4</b></p>
+                    </div>
+                    <!--'column right' class contains bullet points of failures-->
+                    <div class="column right">
+                        <!--CHANGE BELOW TO CHANGE TITLE & FAILURES OF CATEGORY-->
+                        <p><b>Quirks That Make Me Who I Am</b></p>
+                        <ul>
+                            <li> My love of donuts, my people, pretty skies, tropical green tea, and Princess Diaries</li>
+                            <li> My Philly accent (yep, it's "wooder")</li>
+                            <li> My passion for cities and all the people in them (esp. Philly)</li>
+                            <li> Having about 20 siblings</li>
+                        </ul>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--'column left' class contains number of failures/clubs/jobs/etc in category -- CHANGE NUMBER-->
+                    <div class="column left">
+                        <p><b>3</b></p>
+                    </div>
+                    <!--'column right' class contains bullet points of failures-->
+                    <div class="column right">
+                        <!--CHANGE BELOW TO CHANGE TITLE & FAILURES OF CATEGORY-->
+                        <p><b>Things I've Done That Pushed Me Out Of my Comfort Zone</b></p>
+                        <ul>
+                            <li> Taking a language I knew nothing about (American Sign Language)</li>
+                            <li> Coming back to Penn after my medical leave</li>
+                            <li> Traveling to Rwanda and London</li>
+                        </ul>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--'column left' class contains number of failures/clubs/jobs/etc in category -- CHANGE NUMBER-->
+                    <div class="column left">
+                        <p><b>1</b></p>
+                    </div>
+                    <!--'column right' class contains bullet points of failures-->
+                    <div class="column right">
+                        <!--CHANGE BELOW TO CHANGE TITLE & FAILURES OF CATEGORY-->
+                        <p><b>Leap of Faith</b></p>
+                        <ul>
+                            <li> Graduating counts, right? (because it's so exciting yet kinda terrifying)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>
