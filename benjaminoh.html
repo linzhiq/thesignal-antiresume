@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--keep everything in 'head' the same except for title-->
+<head>
+    <meta charset="UTF-8">
+    <!--title that shows up on Google Chrome tab -- CHANGE NAME-->
+    <title>Anti-Resume - Benjamin Oh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--links this file to a style sheet (controls spacing, formatting, colors, sizes, etc.)-->
+    <link rel="stylesheet" type="text/css" href="style/antiresume.css">
+    <link rel="stylesheet" type="text/css" href="style/semantic.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics tracking tag-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136250797-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-136250797-1');
+    </script>
+</head>
+
+<!--everything in body is what appears on page-->
+<body>
+<div class="header">
+    <!-- generic background image (background.jpg)-->
+    <img class="ui image" src="images/background.jpg" id="header_image">
+
+    <!--profile image -- CHANGE URL IN 'src' to "images/(name of jpg)"-->
+    <img class="ui fluid centered bordered circular small image" src="images/benjamin_oh.jpg" id="profile_image">
+
+    <!--heading -- NAME OF ALUMNI/SENIOR-->
+    <h2 class="center">Benjamin Oh</h2>
+
+    <!--paragraph description -- DESCRIPTION OF SENIOR-->
+    <p class="center description"><b>C '19</b></p>
+    <p class="center description">"Benjamin Oh is a current senior in the College of Arts and Sciences, studying Philosophy, Politics and Economics with a concentration in Public Policy and Governance. After graduating, he will be submatriculating into the School of Social Policy to pursue a Masters of Science in Social Policy. Although he is Co-Director of Penn Leads The Vote and RFK Young Leaders, a fellow with the Program on Opinion Research and Election Studies, and board member of the Asian American Studies Undergraduate Advisory Board, he tries to make time for friends, exercise, adventures, and food.
+        He can be reached at benoh@sas.upenn.edu to talk about life, politics, and anime (and anything else)."</p>
+    <br>
+</div>
+
+<!--'background' class provides gray background of page-->
+<div class="background">
+    <!--'content' class provides formatting of content (spacing, margins, font size, etc.-->
+    <div class="content">
+
+        <!--'ui segment' class dictates different sections (i.e. L's Taken and On the Bright Side)-->
+        <div class="ui segment">
+            <div class="ui medium header">L's Taken</div>
+            <div class="info">
+
+                <!--USE THIS FORMAT IF THERE ARE LESS THAN 4 FAILURES-->
+                <!--'row' class contains all content of one category (ex. Clubs I wasn't accepted to)-->
+                <div class="row">
+                    <div class="column left">
+                        <p><b>7</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>"Thank you for applying but..." Jobs</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Woodrow Wilson International Center for Scholars </li>
+                                    <li> The Brooking's Institute</li>
+                                    <li> American Institute for Research </li>
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> Smithsonian Asian Pacific American Center </li>
+                                    <li> Center for American Progress </li>
+                                    <li> Brennan Center for Justice </li>
+                                    <li> Capital One</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column left">
+                        <p><b>5</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Clubs That "weren't a good fit"</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> International Affairs Association </li>
+                                    <li> Ran for Penn Taiwanese Society President</li>
+                                    <li> Ran for Asian Pacific Student Coalition Chair </li>
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> Strictly Funk </li>
+                                    <li> Penn Taiwanese Society Board </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+
+                <!--USE THIS FORMAT IF THERE ARE 4 OR MORE FAILURES-->
+
+
+                <div class="row">
+                    <!--'column left' class contains number of failures/clubs/jobs/etc in category -- CHANGE NUMBER-->
+                    <div class="column left">
+                        <p><b>8</b></p>
+                    </div>
+                    <!--'column right' class contains bullet points of failures-->
+                    <div class="column right">
+                        <!--CHANGE BELOW TO CHANGE TITLE & FAILURES OF CATEGORY-->
+                        <p><b>Things I Swore I'd Finish But Never Did</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Decorating My Room </li>
+                                    <li> Learning Korean </li>
+                                    <li> Relearning Python/Coding </li>
+                                    <li> My daily journal </li>
+                                    <li> All those articles I bookmarked for later </li>
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> My growing collection of unread books</li>
+                                    <li> Cooking all my meals </li>
+                                    <li> My New Yorkers </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column left">
+                        <p><b>8</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Everyday L's</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Not having enough time  </li>
+                                    <li> Buring the outside of the chicken while undercooking the inside </li>
+                                    <li> Not knowing what I'm doing after graduation </li>
+                                    <li> Not enough sleep </li>
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> Acne </li>
+                                    <li> Body Insecurity </li>
+                                    <li> Introversion </li>
+                                    <li> Forgetting to eat</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column left">
+                        <p><b>5</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Failures That Seemed Like The End of the World At The Time</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Asked for an extension </li>
+                                    <li> Getting a C </li>
+                                    <li> Internship Rejections </li>
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> Missing a Deadline </li>
+                                    <li> Losing an Election </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="ui segment">
+            <div class="ui medium header">On the Bright Side</div>
+            <div class="info">
+                <!--add more 'row' classes here-->
+
+                <div class="row">
+                    <div class="column left">
+                        <p><b>9</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Memories I Made When I Wasn't Studying</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Supporting a friend in need  </li>
+                                    <li> Watching the sunrise from the rooftop lounge </li>
+                                    <li> Walking along the river trail </li>
+                                    <li> Conversations until 4 AM </li>
+                                    <li> Breakfast for dinner </li>
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> Playing Slenderman with my freshman hall </li>
+                                    <li> Karaoke nights </li>
+                                    <li> Late night dinner and Smash </li>
+                                    <li> Dancing the night away at a concert</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column left">
+                        <p><b>10</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Things I've Learned That Will Still Matter in 10 Years</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> It will be ok, even if t doesn't feel like it ever will be right now </li>
+                                    <li> Your closest friends will never think of you as a burden </li>
+                                    <li> Behind every smile is a sad story </li>
+                                    <li> It's okay to say no </li>
+                                    <li> Sometimes, even your best won't be good enough </li>
+
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> Don't give up </li>
+                                    <li> Be confident in who you are and what you want to be </li>
+                                    <li> Passion is irreplaceable </li>
+                                    <li> There is nothing more valuable than time, save some for the people you love</li>
+                                    <li> Never stop exploring </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column left">
+                        <p><b>11</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Books I've Read For Fun</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Between the World and Me </li>
+                                    <li> Fatal Invention: How Science, Politics, and Big Business Re-create Race in the Twenty-First Century </li>
+                                    <li> Do Not Say We Have Nothing </li>
+                                    <li> Native Speaker </li>
+                                    <li> The Paper Menagerie </li>
+                                    <li> $2.00 a Day: Living on Almost Nothing in America </li>
+
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> Parallel Worlds: A Journey Through Creation, Higher Dimensions, and the Future of the Cosmos </li>
+                                    <li> We Should All Be Feminists </li>
+                                    <li> The Happiness Hypothesis </li>
+                                    <li> Last Week Tonight with John Oliver Presents: A Day in the Life of Marlon Bundo</li>
+                                    <li> Writing in the Ghetto: Class, Authorship, and the Asian-American Ethnic Enclave</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column left">
+                        <p><b>10</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Things I'm Proud of That You Won't See On My Resume</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Pancake flipping </li>
+                                    <li> My first Canva design </li>
+                                    <li> Hosting a film screening</li>
+                                    <li> Protesting in DC </li>
+                                    <li> Bringing friends together </li>
+
+
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> Not killing my succulent </li>
+                                    <li> Writing an op-ed for the DP </li>
+                                    <li> Learning Twice's TT dance (I am k-pop trash) </li>
+                                    <li> Saving a child from drowning</li>
+                                    <li> Hitting that high note in Frank Ocean's "Thinkin' Bout You" once </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column left">
+                        <p><b>5</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Quirks That  Make Me Who I Am</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Roses are grey, Violets are grey, I am a dog (dumb jokes) </li>
+                                    <li> Being a little too judgy</li>
+                                    <li> Pretending to know Korean</li>
+
+
+
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> Jamming out to K-pop while weightlifting</li>
+                                    <li> Not knowing when to quit </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column left">
+                        <p><b>7</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Things I've Done That Pushed Me Out of My Comfort Zone</b></p>
+                        <div class="ui grid">
+                            <div class="eight wide column">
+                                <ul>
+                                    <li> Taking a year and a half away from school </li>
+                                    <li> Reaching out to CAPS </li>
+                                    <li> Running up a mountain</li>
+                                    <li> Presentations</li>
+
+
+
+                                </ul>
+                            </div>
+                            <div class="eight wide column">
+                                <ul>
+
+                                    <li> My first and last case interview</li>
+                                    <li> Auditioning for Strictly Funk </li>
+                                    <li> Speaking in front of 400 people </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column left">
+                        <p><b>4</b></p>
+                    </div>
+
+                    <div class="column right">
+                        <p><b>Leaps of Faith</b></p>
+
+                                    <li> Declaring a gap year and leaving the country </li>
+                                    <li> Emailing someone at the Wilson Center for an internship</li>
+                                    <li> Cold calling for summer work</li>
+                                    <li> Interviewing for a PTS Board position from across the world</li>
+
+                        <!--'ui divider' class adds a line below each category-->
+                        <div class="ui divider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
