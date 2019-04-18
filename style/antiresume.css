@@ -1,3 +1,27 @@
+/*about & join*/
+/*section.contact, section.join, section.profiles {*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*height: 100%;*/
+/*}*/
+
+section.about, section.contact, section.join, section.profiles#gallery, .title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.profiles#gallery-seniors {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .text {
     font-size: 1.5em;
 }
@@ -66,14 +90,14 @@ li a {
     background-color: #f1f1f1;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 992px) {
     .content {
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
         padding: 5% 0% 5% 0%;
     }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 993px) {
     .content {
         padding: 5% 25% 5% 25%;
     }
@@ -105,18 +129,10 @@ p {
     display: flex;
 }
 
-.section {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /* this only fixes overflow from the top */
-.container {
-    max-height: 100%;
-}
+/*.container {*/
+    /*max-height: 100%;*/
+/*}*/
 
 .center.description {
     max-height: 100%;
@@ -178,4 +194,18 @@ p {
     white-space: nowrap;
     float: left;
     font-size: 36px;
+}
+
+/*footer*/
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    /*color: rgba(255, 255, 255, 0.3);*/
+    /*background-color: black;*/
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0;
 }
