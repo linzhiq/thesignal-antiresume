@@ -1,12 +1,3 @@
-/*about & join*/
-/*section.contact, section.join, section.profiles {*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*height: 100%;*/
-/*}*/
-
 section.about, section.contact, section.join, section.profiles#gallery, .title {
     height: 100%;
     width: 100%;
@@ -20,6 +11,10 @@ section.profiles#gallery-seniors {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+section {
+    padding-top: 103px;
 }
 
 .text {
